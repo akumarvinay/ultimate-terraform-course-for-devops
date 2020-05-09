@@ -5,4 +5,5 @@ DEBIAN_FRONTEND=noninteractive /usr/bin/apt-get upgrade -yq
 /usr/bin/apt-get install apache2 -y
 /usr/sbin/ufw allow in "Apache Full"
 /bin/echo "Hello world " >/var/www/html/index.html
+sudo service apache2 restart
 	
